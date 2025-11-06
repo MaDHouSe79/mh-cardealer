@@ -1,0 +1,49 @@
+<p align="center">
+    <img width="140" src="https://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/128/Letter-M-icon.png" />  
+    <h1 align="center">Hi 👋, I'm MaDHouSe</h1>
+    <h3 align="center">A passionate allround developer </h3>    
+</p>
+
+<p align="center">
+    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/issues">
+        <img src="https://img.shields.io/github/issues/MaDHouSe79/mh-vehicleshops"/>  </a>
+    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/watchers">
+        <img src="https://img.shields.io/github/watchers/MaDHouSe79/mh-vehicleshops"/> 
+    </a> 
+    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/network/members">
+        <img src="https://img.shields.io/github/forks/MaDHouSe79/mh-vehicleshops"/> 
+    </a>  
+    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/stargazers">
+        <img src="https://img.shields.io/github/stars/MaDHouSe79/mh-vehicleshops?color=white"/> 
+    </a>
+    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/MaDHouSe79/mh-vehicleshops?color=black"/> 
+    </a>      
+</p>
+
+<p align="center">
+    <img src="https://komarev.com/ghpvc/?username=MaDHouSe79&label=Profile%20views&color=3464eb&style=for-the-badge&logo=star&abbreviated=true" alt="MaDHouSe79" style="padding-right:20px;" />
+</p>
+
+# MH Cardealer
+- A player based cardealer, players can create there own cardealer anyware they want on the map. 
+- Create 4 points to make a square, than save this area as your own cardealer area.
+- As soon as you have create your place you can add your own vehicles to sell them to other players.
+- Vehicles spawns are server side, when the server needs to restart.
+
+# Dependencies
+- [oxmysql](https://github.com/overextended/oxmysql/releases)
+- [PolyZone](https://github.com/mkafrin/PolyZone/releases)
+- [ox_lib](https://github.com/overextended/ox_lib/releases)
+
+# Dependencies (QB)
+- [qb-inventory](https://github.com/qbcore-framework/qb-inventory) 
+- [qb-target](https://github.com/qbcore-framework/qb-target) 
+
+# Dependencies (ESX/QBX)
+- [ox_inventory](https://github.com/overextended/ox_inventory/releases)
+- [ox_target](https://github.com/overextended/ox_target/releases)
+
+# LICENSE
+[GPL LICENSE](./LICENSE)<br />
+&copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)
