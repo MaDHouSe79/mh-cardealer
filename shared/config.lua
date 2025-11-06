@@ -22,7 +22,7 @@ Config.ShowPhone = true
 Config.DebugPoly = false            -- Debug polyzones.
 ---------------------------------------------------------------------------------------------------
 
-Config.DiscordLink = "https://discord.com/api/webhooks/1435651757668696217/zWR6P0wgQS1gP-jB6ixQXuCjbitaf3YcvwhC58532zhnEFT0ThT9H7-KRVi7hjQ2y7EW"
+Config.DiscordLink = ""
 
 -- Vehicle keys (client side)
 function SetClientVehicleOwnerKey(plate, vehicle)
