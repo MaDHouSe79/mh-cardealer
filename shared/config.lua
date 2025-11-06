@@ -12,7 +12,7 @@ Config.DaysCardealerExist = 5
 Config.AutomaticDeleteAfterTime = true
 ---------------------------------------------------------------------------------------------------
 Config.Display3DText = true
-Config.DisplayInteract = trye      -- When true you see a interact text above the vehicle.
+Config.DisplayInteract = false      -- When true you see a interact text above the vehicle.
 Config.InteractText = "Eye"         -- 'Eye' for target eye or 'E' for button press.
 ---------------------------------------------------------------------------------------------------
 Config.SaveCardealersToFile = true  -- When true it save the cardealer to a file, when false the cardealer is only temponary as long as the server is online and not restarting.
