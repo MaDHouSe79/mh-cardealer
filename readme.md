@@ -30,6 +30,7 @@
 - Create 4 points to make a square, than save this area as your own cardealer area.
 - As soon as you have create your place you can add your own vehicles to sell them to other players.
 - Vehicles spawns are server side, when the server needs to restart.
+- The cardealer only exist for a few days and than it will automatixly deleted the cardealer, you can change this in the config file.
 
 # Dependencies
 - [oxmysql](https://github.com/overextended/oxmysql/releases)
