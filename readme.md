@@ -5,19 +5,19 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/issues">
-        <img src="https://img.shields.io/github/issues/MaDHouSe79/mh-vehicleshops"/>  </a>
-    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/watchers">
-        <img src="https://img.shields.io/github/watchers/MaDHouSe79/mh-vehicleshops"/> 
+    <a href="https://github.com/MaDHouSe79/mh-cardealer/issues">
+        <img src="https://img.shields.io/github/issues/MaDHouSe79/mh-cardealer"/>  </a>
+    <a href="https://github.com/MaDHouSe79/mh-cardealer/watchers">
+        <img src="https://img.shields.io/github/watchers/MaDHouSe79/mh-cardealer"/> 
     </a> 
-    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/network/members">
-        <img src="https://img.shields.io/github/forks/MaDHouSe79/mh-vehicleshops"/> 
+    <a href="https://github.com/MaDHouSe79/mh-cardealer/network/members">
+        <img src="https://img.shields.io/github/forks/MaDHouSe79/mh-cardealer"/> 
     </a>  
-    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/stargazers">
-        <img src="https://img.shields.io/github/stars/MaDHouSe79/mh-vehicleshops?color=white"/> 
+    <a href="https://github.com/MaDHouSe79/mh-cardealer/stargazers">
+        <img src="https://img.shields.io/github/stars/MaDHouSe79/mh-cardealer?color=white"/> 
     </a>
-    <a href="https://github.com/MaDHouSe79/mh-vehicleshops/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/MaDHouSe79/mh-vehicleshops?color=black"/> 
+    <a href="https://github.com/MaDHouSe79/mh-cardealer/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/MaDHouSe79/mh-cardealer?color=black"/> 
     </a>      
 </p>
 
@@ -26,7 +26,7 @@
 </p>
 
 # MH Cardealer
-- A player based cardealer, players can create there own cardealer anyware they want on the map. 
+- A realistic cardealer system for players, they can create there own cardealer anyware they want on the map. 
 - Create 4 points to make a square, than save this area as your own cardealer area.
 - As soon as you have create your place you can add your own vehicles to sell them to other players.
 - Vehicles spawns are server side, when the server needs to restart.
