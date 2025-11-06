@@ -19,7 +19,7 @@ Config.SaveCardealersToFile = true  -- When true it save the cardealer to a file
 Config.ShowNetIds = false           -- when there is no netid this vehuicle wil nog work, there has to be a netid in order to work.
 Config.ShowPhone = true
 ---------------------------------------------------------------------------------------------------
-Config.DebugPoly = true            -- Debug polyzones.
+Config.DebugPoly = false            -- Debug polyzones.
 ---------------------------------------------------------------------------------------------------
 
 Config.DiscordLink = "https://discord.com/api/webhooks/1435651757668696217/zWR6P0wgQS1gP-jB6ixQXuCjbitaf3YcvwhC58532zhnEFT0ThT9H7-KRVi7hjQ2y7EW"
