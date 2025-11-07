@@ -32,6 +32,11 @@
 - Vehicles spawns are server side, when the server needs to restart.
 - The cardealer only exist for a few days and than it will automatixly deleted the cardealer, you can change this in the config file.
 
+# Screenshots
+![foto](https://github.com/MaDHouSe79/mh-cardealer/blob/main/screenshots/1.png)
+![foto](https://github.com/MaDHouSe79/mh-cardealer/blob/main/screenshots/2.png)
+![foto](https://github.com/MaDHouSe79/mh-cardealer/blob/main/screenshots/3.png)
+
 # Dependencies
 - [oxmysql](https://github.com/overextended/oxmysql/releases)
 - [PolyZone](https://github.com/mkafrin/PolyZone/releases)
