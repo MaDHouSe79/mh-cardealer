@@ -140,3 +140,15 @@ function SendLogToDiscord(name, message)
     if Config.DiscordLink == nil or name == nil or name == '' or message == nil or message == '' then return end
     PerformHttpRequest(Config.DiscordLink, function(err, text, headers) end, 'POST', json.encode({username = name, content = message}), { ['Content-Type'] = 'application/json' })
 end
+
+function UninstallDatabase()
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_id')
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_price')
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_coords')
+end
+
+function InstallDatabase()
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_id INT NULL DEFAULT 0')
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_price INT NULL DEFAULT 0')
+    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_coords TEXT NULL DEFAULT 0')
+end

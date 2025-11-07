@@ -6,6 +6,8 @@ Config.Framework = "qb"             -- For qb/qbx/esx.
 Config.Target = "qb-target"         -- For qb-target/ox_target
 Config.MoneySign = "€"              -- $ or €
 ---------------------------------------------------------------------------------------------------
+Config.DiscordLink = "https://discord.com/api/webhooks/1436296815992504391/JoTqo55Ea-PnYWBfL4YKauVdrZVIBLuw2cF1RTzIGdku2qjZ60glecotVf6y_pfC3_r7"
+---------------------------------------------------------------------------------------------------
 Config.UseAsJob = false             -- When try players need to go to the citehall to get the job.
 Config.JobName = 'cardealer2'       -- Job name.
 Config.DaysCardealerExist = 5
@@ -21,8 +23,6 @@ Config.ShowPhone = true
 ---------------------------------------------------------------------------------------------------
 Config.DebugPoly = true            -- Debug polyzones.
 ---------------------------------------------------------------------------------------------------
-
-Config.DiscordLink = "https://discord.com/api/webhooks/1435651757668696217/zWR6P0wgQS1gP-jB6ixQXuCjbitaf3YcvwhC58532zhnEFT0ThT9H7-KRVi7hjQ2y7EW"
 
 -- Vehicle keys (client side)
 function SetClientVehicleOwnerKey(plate, vehicle)

@@ -43,6 +43,11 @@
 # Dependencies (ESX/QBX)
 - [ox_target](https://github.com/overextended/ox_target/releases)
 
+
+# Install/Uninstall (server must be running)
+- `/install-cardealer` to install mh-cardealer to your database.
+- `/uninstall-cardealer` to uninstall mh-cardealer from your database.
+
 # LICENSE
 [GPL LICENSE](./LICENSE)<br />
 &copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)

@@ -375,15 +375,20 @@ AddEventHandler('playerDropped', function(reason)
     --SendLogToDiscord('SYSTEM', GetPlayerName(src) .. ' left (' .. reason .. ')')
 end)
 
-local function UninstallDatabase()
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_id')
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_price')
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' DROP COLUMN shop_coords')
-end
+RegisterCommand("uninstall-cardealer", function(source, args, rawCommand)
+    if source > 0 then
+        print("You can't use this command in F8 or in chat, you need to use the command in TxAdmin console.")
+    else
+        UnInstallDatabase()
+        print("Database is uninstalled, now stop your server and delete the folder (mh-cardealer) from your server and start your server!")
+    end
+end, true)
 
-local function InstallDatabase()
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_id INT NULL DEFAULT 0')
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_price INT NULL DEFAULT 0')
-    MySQL.Async.execute('ALTER TABLE '..sql.table..' ADD COLUMN IF NOT EXISTS shop_coords TEXT NULL DEFAULT 0')
-end
-InstallDatabase()
+RegisterCommand("install-cardealer", function(source, args, rawCommand)
+    if source > 0 then
+        print("You can't use this command in F8 or in chat, you need to use the command in TxAdmin console.")
+    else
+        InstallDatabase()
+        print("Database installed, now restart your server!")
+    end
+end, true)
