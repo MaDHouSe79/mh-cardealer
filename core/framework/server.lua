@@ -137,8 +137,11 @@ function Notify(src, message, type, length)
 end
 
 function SendLogToDiscord(name, message)
+    local colors = {['default'] = 14423100, ['blue'] = 255, ['red'] = 16711680, ['green'] = 65280, ['white'] = 16777215, ['black'] = 0, ['orange'] = 16744192, ['yellow'] = 16776960, ['pink'] = 16761035, ['lightgreen'] = 65309}
+    local color = math.radnom(1, #colors)
     if Config.DiscordWebHook == nil or name == nil or name == '' or message == nil or message == '' then return end
-    PerformHttpRequest(Config.DiscordWebHook, function(err, text, headers) end, 'POST', json.encode({username = name, content = message}), { ['Content-Type'] = 'application/json' })
+    local embed = {{["color"] = 16753920, ["title"] = "**".. name .."**", ["description"] = message, ["footer"] = {["text"] = "MH-Cardealer"}}}
+    PerformHttpRequest(Config.DiscordWebHook, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 end
 
 function UninstallDatabase()
