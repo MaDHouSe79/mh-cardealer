@@ -6,7 +6,7 @@ Config.Framework = "qb"             -- For qb/qbx/esx.
 Config.Target = "qb-target"         -- For qb-target/ox_target
 Config.MoneySign = "€"              -- $ or €
 ---------------------------------------------------------------------------------------------------
-Config.DiscordLink = "https://discord.com/api/webhooks/1436296815992504391/JoTqo55Ea-PnYWBfL4YKauVdrZVIBLuw2cF1RTzIGdku2qjZ60glecotVf6y_pfC3_r7"
+Config.DiscordLink = ""
 ---------------------------------------------------------------------------------------------------
 Config.UseAsJob = false             -- When try players need to go to the citehall to get the job.
 Config.JobName = 'cardealer2'       -- Job name.
