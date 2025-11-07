@@ -6,7 +6,7 @@ Config.Framework = "qb"                -- For qb/qbx/esx.
 Config.Target = "qb-target"            -- For qb-target/ox_target
 Config.MoneySign = "€"                 -- $ or €
 ---------------------------------------------------------------------------------------------------
-Config.DiscordLink = ""
+Config.DiscordWebHook = ""
 ---------------------------------------------------------------------------------------------------
 Config.UseAsJob = false                -- Players need to go to the citehall to get the this job.
 Config.JobName = 'cardealer2'          -- Job name.
