@@ -137,8 +137,8 @@ function Notify(src, message, type, length)
 end
 
 function SendLogToDiscord(name, message)
-    if Config.DiscordLink == nil or name == nil or name == '' or message == nil or message == '' then return end
-    PerformHttpRequest(Config.DiscordLink, function(err, text, headers) end, 'POST', json.encode({username = name, content = message}), { ['Content-Type'] = 'application/json' })
+    if Config.DiscordWebHook == nil or name == nil or name == '' or message == nil or message == '' then return end
+    PerformHttpRequest(Config.DiscordWebHook, function(err, text, headers) end, 'POST', json.encode({username = name, content = message}), { ['Content-Type'] = 'application/json' })
 end
 
 function UninstallDatabase()
