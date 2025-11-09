@@ -25,7 +25,7 @@
     <img src="https://komarev.com/ghpvc/?username=MaDHouSe79&label=Profile%20views&color=3464eb&style=for-the-badge&logo=star&abbreviated=true" alt="MaDHouSe79" style="padding-right:20px;" />
 </p>
 
-# MH Cardealer
+# MH Cardealer (QB/QBX/ESX)
 - A realistic cardealer system for players, they can create there own cardealer anyware they want on the map. 
 - Create 4 points to make a square, than save this area as your own cardealer area.
 - As soon as you have create your place you can add your own vehicles to sell them to other players.
@@ -55,4 +55,5 @@
 
 # LICENSE
 [GPL LICENSE](./LICENSE)<br />
+
 &copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)
